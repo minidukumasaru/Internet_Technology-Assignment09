@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-09</title>
+    <style>
+        .light {
+            width: 150px;
+            height: 80px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        #light-panel{
+            margin-top: 350px;
+            display: flex;
+            justify-content: center;
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 100%;
+        }
+        #button-panel>button{
+            width: 150px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 200px;
+            border-radius: 10px;
+            border: 2px solid darkred;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+<section id="kit">
+    <section id="light-panel">
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+    </section>
+    <section id="button-panel">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </section>
+
+</section>
+<script src="lib/jquery-3.7.1.min.js"></script>
+<script src="Script.js"></script>
+</body>
+</html>
